@@ -1,0 +1,26 @@
+# --- Secrets / Credentials ---
+secrets.h
+config.h
+.env
+
+# --- Certificates & Keys ---
+*.pem
+*.key
+*.crt
+
+# --- Arduino / ESP32 Build Files ---
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.a
+
+# --- IDE / OS Noise ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Wokwi ---
+wokwi.toml
