@@ -1,5 +1,9 @@
-// ===== WOKWI SIMULATION VERSION =====
-// WiFi & MQTT disabled for simulation compatibility
+/*
+ Simulation Build (Wokwi)
+ - Networking disabled
+ - Logic identical to hardware build
+*/
+
 
 // ---------- PINS ----------
 const int redNS = 14;
